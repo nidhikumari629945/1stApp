@@ -32,4 +32,6 @@ public arraydata=[
     id:5,
   },
 ];
+
+public data3 = false;
 }
