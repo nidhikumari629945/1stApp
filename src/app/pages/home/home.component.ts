@@ -2,49 +2,60 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-home',
-  templateUrl: './home.component.html',
+  templateUrl:'./home.component.html',
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent {
-public data="Hello World..";
-public color="text-primary";
-public data2=false;
-public arraydata=[
-  {
-    name:'aaaaa',
-    id:1,
-  },{
-    name:'bbbbb',
-    id:2,
-  },{
-    name:'ccccc',
-    id:3,
-  },{
-    name:'ddddd',
-    id:4,
+
+ public productDetails: any;
+
+  public getProductDetail(product: any){
+  console.log(product);
+  this.productDetails = product;
+
+  }
+
+
+
+  public products = [
+    {
+      id: 1,
+      name: "Product 1",
+      price: "100",
+      description: "This is a wider card with supporting text below as a natural lead-in to additional content.",
+    imgUrl:'assets/images/home/img.jpg',
+    },
+
+    {
+    id: 2,
+      name: "Product 2",
+      price: "150",
+      description: "This is a wider card with supporting text below as a natural lead-in to additional content.",
+      imgUrl:'assets/images/home/shirt.jpg',
   },
+
   {
-    name:'eeeee',
-    id:5,
-  },
-  {
-    name:'fffff',
-    id:5,
-  },
-];
+  id: 3,
+  name: "Product 3",
+      price: "200",
+      description: "This is a wider card with supporting text below as a natural lead-in to additional content.",
+      imgUrl: 'assets/images/home/img.jpg',
+    },
 
-public data3 = false;
+{
+  id: 4,
+  name: "Product 4",
+  price: "250",
+  description: "This is a wider card with supporting text below as a natural lead-in to additional content.",
+  imgUrl: 'assets/images/home/img.jpg',
+},
 
-
-public constructor() {
-  this.fun1();
-}
-
-public fun1() {
-  alert('fun1');
-}
-
-public fun2() {
-  alert('fun2');
-}
+{
+  id: 5,
+name: "Product 5",
+      price: "300",
+      description: "This is a wider card with supporting text below as a natural lead-in to additional content.",
+imgUrl: 'assets/images/home/img.jpg',
+    },
+    ];
 }
