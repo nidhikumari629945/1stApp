@@ -23,7 +23,7 @@ export class HomeComponent {
       name: "Product 1",
       price: "100",
       description: "This is a wider card with supporting text below as a natural lead-in to additional content.",
-    imgUrl:'assets/images/home/img.jpg',
+    imgUrl:'assets/images/home/shirt.jpg',
     },
 
     {
@@ -31,7 +31,7 @@ export class HomeComponent {
       name: "Product 2",
       price: "150",
       description: "This is a wider card with supporting text below as a natural lead-in to additional content.",
-      imgUrl:'assets/images/home/shirt.jpg',
+      imgUrl:'assets/images/home/SHIRT2.jpg',
   },
 
   {
@@ -39,7 +39,7 @@ export class HomeComponent {
   name: "Product 3",
       price: "200",
       description: "This is a wider card with supporting text below as a natural lead-in to additional content.",
-      imgUrl: 'assets/images/home/img.jpg',
+      imgUrl: 'assets/images/home/shirt3.jpg',
     },
 
 {
@@ -47,7 +47,7 @@ export class HomeComponent {
   name: "Product 4",
   price: "250",
   description: "This is a wider card with supporting text below as a natural lead-in to additional content.",
-  imgUrl: 'assets/images/home/img.jpg',
+  imgUrl: 'assets/images/home/shirt4.jpg',
 },
 
 {
@@ -55,7 +55,7 @@ export class HomeComponent {
 name: "Product 5",
       price: "300",
       description: "This is a wider card with supporting text below as a natural lead-in to additional content.",
-imgUrl: 'assets/images/home/img.jpg',
+imgUrl: 'assets/images/home/shirt5.jpg',
     },
     ];
 }
