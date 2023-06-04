@@ -1,0 +1,41 @@
+{
+    "data":[
+        {
+            "id": 1,
+            "name": "product",
+            "price": "100",
+            "description": "This is a wider caer with supporting text below as a in to additional content.", 
+            "imgUrl": "assets/images/home/shirt.jpg"
+        },
+
+        {
+            "id": 2,
+            "name": "product2",
+            "price": "150",
+            "description": "This is a wider caer with supporting text below as a in to additional content.", 
+            "imgUrl": "assets/images/home/SHIRT2.jpg"
+        },
+        {
+            "id": 3,
+            "name": "product3",
+            "price": "200",
+            "description": "This is a wider caer with supporting text below as a in to additional content.", 
+            "imgUrl": "assets/images/home/shirt3.jpg"
+        },
+        {
+            "id": 4,
+            "name": "product4",
+            "price": "250",
+            "description": "This is a wider caer with supporting text below as a in to additional content.", 
+            "imgUrl": "assets/images/home/shirt4.jpg"
+        },
+        {
+            "id": 5,
+            "name": "product5",
+            "price": "300",
+            "description": "This is a wider caer with supporting text below as a in to additional content.", 
+            "imgUrl": "assets/images/home/shirt5.jpg"
+        }
+        
+    ]
+}

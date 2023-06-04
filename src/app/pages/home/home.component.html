@@ -37,7 +37,7 @@
         <div class="card mb-3" style="max-width: 540px;" *ngIf="productDetails">
           <div class="row g-0">
             <div class="col-md-4">
-              <img src="assets/images/home/img.jpg" class="img-fluid rounded-start" alt="..." style="height:100%; width:100%">
+              <img [src]="productDetails.imgUrl" class="img-fluid rounded-start" alt="..." style="height:100%; width:100%">
             </div>
             <div class="col-md-8">
               <div class="card-body">
